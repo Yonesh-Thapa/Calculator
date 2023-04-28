@@ -1,0 +1,39 @@
+.calculator{
+    position:relative;
+    border: #000000 solid 1px;
+    text-align: center;
+    width: fit-content;
+    padding:1rem 2rem;
+    margin:auto;
+    background-color: #333741;
+    color:white;
+    margin-top: calc(30vh - 82px);
+    border-radius: 0.5rem;
+    box-shadow: grey 3px 3px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 50px;
+    animation-name: simpleCalculator;
+    animation-duration: 4s;
+    color: #000000;
+    
+
+}
+@keyframes simpleCalculator{
+    from{color:#cfcfcf;}
+    to{color:#000000;}
+    
+    
+}
+body{
+    background-color: #cfcfcf;
+    animation-name:bodyColor;
+    animation-duration:4s;
+}
+@keyframes bodyColor{
+    from{background-color: #cfcfcf;}
+    to {background-color: #333731;}
+}
