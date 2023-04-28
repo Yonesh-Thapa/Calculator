@@ -11,30 +11,27 @@ function init() {
     subtractBtn.onclick = subtractBtnClicked;
     multiplyBtn.onclick = multiplyBtnClicked;
     divideBtn.onclick = divideBtnClicked;
+    const answer = document.getElementById("answer");
 
     function addBtnClicked() {
-        const answer = document.getElementById("answer");
 
         let result = Number(x.value) + Number(y.value);
         answer.value = result;
 
     }
     function subtractBtnClicked() {
-        const answer = document.getElementById("answer");
 
         let result = Number(x.value) - Number(y.value);
         answer.value = result;
 
     }
     function multiplyBtnClicked() {
-        const answer = document.getElementById("answer");
 
         let result = Number(x.value) * Number(y.value);
         answer.value = result;
 
     }
     function divideBtnClicked() {
-        const answer = document.getElementById("answer");
 
         let result = Number(x.value) / Number(y.value);
         answer.value = result;
